@@ -4,7 +4,7 @@ import Ballroom from '../../public/ballroom.jpg';
 import Hotel from '../../public/hotel.jpg';
 import Year from '../../public/year.png';
 import Happy from '../../public/happy-birthday.webp';
-import { staticBirthDate } from '@/lib/constants';
+import { staticBirthDate } from '@/app/lib/constants';
 
 export default function Home() {
 	return (
