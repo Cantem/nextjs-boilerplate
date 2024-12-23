@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Container from '@/app/components/container';
-import Ballroom from '../../public/ballroom.jpg';
-import Hotel from '../../public/hotel.jpg';
-import Year from '../../public/year.png';
-import Happy from '../../public/happy-birthday.webp';
+import Ballroom from '../public/ballroom.jpg';
+import Hotel from '../public/hotel.jpg';
+import Year from '../public/year.png';
+import Happy from '../public/happy-birthday.webp';
 import { staticBirthDate } from '@/app/lib/constants';
 
 export default function Home() {
