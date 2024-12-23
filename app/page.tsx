@@ -4,6 +4,8 @@ import Ballroom from '../public/ballroom.jpg';
 import Hotel from '../public/hotel.jpg';
 import Year from '../public/year.png';
 import Happy from '../public/happy-birthday.webp';
+import Us from '../public/ball-krakow.jpg';
+import We from '../public/wesele-jowi.jpg';
 import { staticBirthDate } from '@/app/lib/constants';
 
 export default function Home() {
@@ -12,6 +14,9 @@ export default function Home() {
 			<Container>
 				<h1 className='text-5xl md:text-7xl font-bold text-center md:pr-8 pt-10'>Jaki dzisiaj mamy dzień?</h1>
 				<h1 className='text-5xl md:text-7xl font-bold text-center md:pr-8 pt-10 pb-10'>{staticBirthDate}!</h1>
+				<div className=' mb-8 md:mb-16 sm:mx-0'>
+					<Image src={We} alt='Cover Image for' className={'shadow-sm w-full'} width={650} height={130} />
+				</div>
 				<div className='mb-8 md:mb-16 sm:mx-0'>
 					<Image src={Happy} alt='Cover Image for' className={'shadow-sm w-full'} width={1300} height={630} />
 				</div>
@@ -27,6 +32,9 @@ export default function Home() {
 				<h2 className='text-5xl md:text-7xl font-bold text-center md:pr-8 pb-10'>01.03.2025 - 03.03.2025</h2>
 				<div className='mb-8 md:mb-16 sm:mx-0'>
 					<Image src={Year} alt='Cover Image for' className={'shadow-sm w-full'} width={1300} height={630} />
+				</div>
+				<div className=' mb-8 md:mb-16 sm:mx-0'>
+					<Image src={Us} alt='Cover Image for' className={'shadow-sm w-full'} width={650} height={130} />
 				</div>
 			</Container>
 		</main>
