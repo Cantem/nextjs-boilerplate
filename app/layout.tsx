@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { HOME_OG_IMAGE_URL } from '@/lib/constants';
+import { HOME_OG_IMAGE_URL } from '@/app/lib/constants';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Footer from '@/app/components/footer';
